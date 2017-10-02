@@ -1,0 +1,15 @@
+PODS:
+  - ArcGIS-Runtime-SDK-iOS (100.1.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - ArcGIS-Runtime-SDK-iOS (= 100.1)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ArcGIS-Runtime-SDK-iOS: 9b9c2478c974ef0b704b853948a19227f3124ceb
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 8fd52eb563dcfabd672b5bfba4bf44d78c99be51
+
+COCOAPODS: 1.2.0

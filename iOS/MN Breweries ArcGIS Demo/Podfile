@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MN Breweries ArcGIS Demo' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MN Breweries ArcGIS Demo
+  pod 'ArcGIS-Runtime-SDK-iOS', '100.1'
+  pod 'SwiftyJSON'
+
+end
