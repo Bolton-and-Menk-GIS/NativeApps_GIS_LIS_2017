@@ -110,7 +110,7 @@ class ViewController: UIViewController, AGSGeoViewTouchDelegate, AGSPopupsViewCo
                 let geoElements = identifyLayerResult.geoElements
                 
                 for geoElement in geoElements {
-                    let popup = AGSPopup(geoElement: geoElement)
+                    let popup = AGSPopup(geoElement: geoElement, popupDefinition: weakSelf.breweries.popupDefinition)
                     popups.append(popup)
                 }
             
